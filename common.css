@@ -1,0 +1,57 @@
+A:link
+{
+    text-decoration:none;
+    font-size:xx-large;
+    font-style:italic;
+    color:#FFFFFF;
+}
+A:visited
+{
+    text-decoration:none;
+    font-size:xx-large;
+    font-style:italic;
+    color:#FFFFFF;
+}
+A:activ
+{
+    font-size:xx-large;
+    text-decoration:none;
+    font-style:italic;
+    color:#F3DC81;
+}
+A:hover
+{
+    font-size:xx-large;
+	text-decoration:none;
+    font-style:italic;
+    color:#F3DC81;    
+}
+
+.start
+{
+    font-size:xx-large;
+    color:#FFF7F7;
+    font-weight:bolder;
+    font-style:italic;
+    text-decoration:none;
+}
+
+.howtoplay
+{
+    color:#FFFFFF;
+    font-weight:bold;
+}
+
+.chara
+{
+    color:#FFFFFF;
+    font-weight:bold;
+}
+
+.intro
+{
+    color:#595959;
+    background-color:#FFFFFF;
+    padding:1% 1% 1% 1%;
+}
+

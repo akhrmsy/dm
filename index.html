@@ -1,0 +1,104 @@
+<html lang="ja">
+<head>
+<meta HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=Shift_JIS">
+<title>ダンジョンモンスター スタートページ</title>
+<script language="JavaScript">
+<!--
+//
+function OpenGameWindow(){
+ window.open("dm.html", "", "height=780, width=830, directories=yes, location=yes, menubar=yes, status=yes, toolbar=yes");
+}
+
+//
+function StartMouseOver(){
+ document.all.start.style.color = "#F3DC81";
+}
+
+//
+function StartMouseOut(){
+ document.all.start.style.color = "#ffffff";
+}
+-->
+</script>
+</head>
+
+<body bgcolor="#000000" background="maptip0.gif" link="white" vlink="white" text="white">
+
+<center>
+
+<img src="titlelogo.gif" width="480" height="480" alt="">
+
+<br>
+<font size=1>
+Ver. 1.0.0.7
+</font>
+<br>
+<br>
+
+<div id="start" class="start" onmouseover="StartMouseOver()" onmouseout="StartMouseOut()" onclick="OpenGameWindow()">
+<b>
+<font size=4>
+- START -
+</font>
+<br>
+<font size=3>
+クリックで開始
+</font>
+</b>
+</div>
+
+<noscript>
+<font color="#ffffff"><b>
+このゲームは JavaScript を使用しています。<br>
+JavaScript を利用できる状態にしてから，御遊びください。<br>
+</b></font>
+</noscript>
+
+<br>
+<br>
+
+<a href="htp.html">- HowToPlay -</a>
+
+<br>
+<br>
+
+- ダンジョンのモンスターたち -
+<script language="JavaScript">
+var w=16;
+var i=0;
+document.write("<table>");
+document.write("<tr>");
+document.write("<td align='center' width=400>");
+for(i=0;i<12;i++){
+document.write("<img src='monster/bat"+i+".gif' width="+w+">");
+document.write("<img src='monster/b-ghost"+i+".gif' width="+w+">");
+document.write("<img src='monster/boss-a"+i+".gif' width="+w+">");
+document.write("<img src='monster/boss-b"+i+".gif' width="+w+">");
+document.write("<img src='monster/boss-c"+i+".gif' width="+w+">");
+document.write("<img src='monster/boss-d"+i+".gif' width="+w+">");
+document.write("<img src='monster/boss-e"+i+".gif' width="+w+">");
+document.write("<img src='monster/dragon"+i+".gif' width="+w+">");
+document.write("<img src='monster/ghost"+i+".gif' width="+w+">");
+document.write("<img src='monster/g-skele"+i+".gif' width="+w+">");
+document.write("<img src='monster/hi-lizard"+i+".gif' width="+w+">");
+document.write("<img src='monster/icegolem"+i+".gif' width="+w+">");
+document.write("<img src='monster/lizardman"+i+".gif' width="+w+">");
+document.write("<img src='monster/ork"+i+".gif' width="+w+">");
+document.write("<img src='monster/skeleton"+i+".gif' width="+w+">");
+document.write("<img src='monster/slime0"+i+".gif' width="+w+">");
+document.write("<img src='monster/slime1"+i+".gif' width="+w+">");
+document.write("<img src='monster/slime2"+i+".gif' width="+w+">");
+}
+document.write("</td>");
+document.write("</tr>");
+document.write("</table>");
+
+document.write("音楽 = Finalia/P's MAT");
+document.write("http://homepage1.nifty.com/pon-ta/finalia/");
+
+</script>
+
+</center>
+</body>
+</html>
